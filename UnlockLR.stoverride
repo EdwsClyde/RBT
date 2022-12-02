@@ -12,5 +12,5 @@ http:
  
 script-providers:
   LR.js:
-    url=https://raw.githubusercontent.com/RuBaiTu/RBT/main/LR.js
+    url:https://raw.githubusercontent.com/RuBaiTu/RBT/main/LR.js
     interval:86400
