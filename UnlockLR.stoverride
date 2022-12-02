@@ -8,7 +8,7 @@ http:
       require-body:true
       timeout:30
   mimt:
- 
+      - "photos.adobe.io"
  
 script-providers:
     LR.js:
