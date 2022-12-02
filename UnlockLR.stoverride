@@ -3,14 +3,14 @@ desc:UnlockLR
 http:
   script:
     - match: ^https:\/\/photos\.adobe.io\/v2\/accounts*
-      name:LR.js
-      type:response
-      require-body:true
+      name: LR.js
+      type: response
+      require-body: true
       timeout:30
   mitm:
     - "photos.adobe.io"
  
 script-providers:
   LR.js:
-    url:https://raw.githubusercontent.com/RuBaiTu/RBT/main/LR.js
-    interval:86400
+    url: https://raw.githubusercontent.com/RuBaiTu/RBT/main/LR.js
+    interval: 86400
